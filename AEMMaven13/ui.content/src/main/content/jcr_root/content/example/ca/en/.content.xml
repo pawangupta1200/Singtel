@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/libs/settings/cloudsettings/legacy/contexthub"
+        cq:contextHubSegmentsPath="/conf/we-retail/settings/wcm/segments"
+        cq:lastModified="{Date}2016-09-23T16:25:59.502-07:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2016-09-23T16:25:59.503-07:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/conf/we-retail/settings/wcm/templates/hero-page"
+        jcr:language="en_CA"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="weretail/components/structure/page"
+        navRoot="{Boolean}true">
+        <root
+            cq:lastRolledout="{Date}2016-09-23T16:25:59.303-07:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                cq:lastRolledout="{Date}2016-09-23T16:25:59.320-07:00"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header
+                    cq:lastRolledout="{Date}2016-09-23T16:25:59.338-07:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:created="{Date}2015-11-04T00:47:33.815+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2016-09-23T16:25:59.335-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Discover the Finest Gear"
+                    sling:resourceType="/apps/AEMMaven13/components/content/header"
+                    type="h2"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <experience/>
+    <men/>
+    <women/>
+</jcr:root>
